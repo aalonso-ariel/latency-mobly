@@ -19,7 +19,7 @@ import javax.ws.rs.core.Response;
 @Path("base")
 public class JavaEE8Resource {
     
-    @Path("ping")
+    @Path("latency")
     @GET
     public Response ping(){
         
